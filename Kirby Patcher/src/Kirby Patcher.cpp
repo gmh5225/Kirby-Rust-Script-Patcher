@@ -192,7 +192,7 @@ int main() {
 	MoveWindow(console, r.left, r.top, 700, 450, TRUE);
 	SetWindowLong(console, GWL_STYLE, GetWindowLong(console, GWL_STYLE) & ~WS_MAXIMIZEBOX & ~WS_SIZEBOX);
 	SetWindowPos(console, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
-	SetConsoleTitle(L"Kirby Patcher | ZEROLEAKS.XYZ");
+	SetConsoleTitle(L"Kirby Patcher");
 	
 	int delay = 400;
 	uintptr_t procId = 0;
